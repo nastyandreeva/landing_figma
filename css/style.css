@@ -1,0 +1,190 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+div {
+    box-sizing: border-box; /* не учитывать padding, не изменять размер div */
+    display: block;
+}
+.container {
+    width: 100%;
+    max-width: 1219px;
+    margin: 0 auto;
+    padding:0 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_logo_link {
+    float: left;
+    margin-top: 19px;
+}
+.header {
+    height: 84px;
+    background-color:#007765;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav {
+    float:right;
+    margin-top: 27px;
+}
+.header_list { /*ul */
+    padding: 0;
+    margin: 0;
+    display:block;
+}
+.header_item { /*li*/
+    float: left;
+    display: block;
+    margin-right: 8px; /* отступы между назв. в меню */
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header_item:last-child { /* обнуление отступа у последнего элемента li */
+    margin-right: 0;
+} 
+
+.header_link  {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none; 
+    line-height: 28px;
+    font-weight: 500;
+}
+ .header_link:hover, .header_link:focus, .header_link:active {
+     opacity: .75;
+ }
+ section {
+    display: block;
+}
+
+.title {
+    background-image: url(../img/img1.png);
+    background-size: cover;
+    padding: 160px 0;
+    background-repeat: no repeat;
+}
+.title_h1 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 84px;
+    font-style: normal;
+    text-align: center;
+}
+.problem {
+    background-color: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.problem h1 {
+    color:#007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.problem p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.hero {
+    background-image: url(../img/img2.png);
+    background-size: cover;
+    padding: 128px 163px;
+    background-repeat: no repeat;
+}
+.hero p{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.introduction {
+    padding-bottom: 92px;
+    padding-top: 48px;
+}
+.introduction h2 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+
+}
+.introduction p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.ppc {
+    float: left;
+    padding-right: 48px;
+}
+.team {
+    padding-top: 48px;
+    padding-bottom: 94px;
+    background-color: #EEEEEE;
+}
+.team h2 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+    margin-top:48px;
+}
+.card {
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 30px;
+    padding: 32px 55px 30px;
+}
+.card_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+.card_text {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding-top: 0px;
+}
+.card img {
+    margin-bottom:12px;
+}
+.footer {
+    background-color: #333333;
+    height: 176px;
+    text-align: center;
+}
+.footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top:48px;
+    padding-bottom: 64px;
+    margin: auto;
+    width:48%;
+}
